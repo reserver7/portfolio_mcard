@@ -12,6 +12,7 @@
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "firebase": "^10.10.0",
+    "framer-motion": "^11.0.27",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

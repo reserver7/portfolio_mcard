@@ -5,8 +5,7 @@ import { css } from '@emotion/react'
 import { colors } from '@/styles/colorPalette'
 import useUser from '@/hooks/auth/useUser'
 import { useCallback } from 'react'
-import { signOut } from 'firebase/auth'
-import { auth } from '@/remote/firebase'
+import MyImage from '@components/my/MyImage'
 
 function Navbar() {
   const location = useLocation()
@@ -15,13 +14,13 @@ function Navbar() {
 
   const user = useUser()
 
-  const handleLogout = useCallback(() => {
-    signOut(auth)
-  }, [])
-
   const renderButton = useCallback(() => {
     if (user != null) {
-      return <Button onClick={handleLogout}>로그아웃</Button>
+      return (
+        <Link to="my">
+          <MyImage size={40} />
+        </Link>
+      )
     }
 
     if (showSignButton) {
@@ -33,11 +32,17 @@ function Navbar() {
     }
 
     return null
-  }, [user, showSignButton, handleLogout])
+  }, [user, showSignButton])
 
   return (
     <Flex justify="space-between" align="center" css={navbarContainerStyles}>
-      <Link to="/">홈</Link>
+      <Link to="/" style={{ width: '80px', transform: 'translateX(-25px)' }}>
+        <img
+          width="100%"
+          src="https://framerusercontent.com/images/y7135TGP0TiQ7gtLbQ0IrWOzww.jpg?lossless=1"
+          alt=""
+        />
+      </Link>
       {renderButton()}
     </Flex>
   )

@@ -7,7 +7,7 @@ export interface Term {
 }
 
 export const APPLY_STATUS = {
-  REDAY: 'REDAY',
+  READY: 'READY',
   PROGRESS: 'PROGRESS',
   COMPLETE: 'COMPLETE',
   REJECT: 'REJECT',

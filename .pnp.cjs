@@ -59,6 +59,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:18.2.0"],\
           ["react-infinite-scroll-component", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:6.1.0"],\
+          ["react-intersection-observer", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:9.8.2"],\
           ["react-query", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:3.39.3"],\
           ["react-router-dom", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:6.22.3"],\
           ["react-scripts", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:5.0.1"],\
@@ -15280,6 +15281,7 @@ const RAW_RUNTIME_STATE =
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:18.2.0"],\
           ["react-infinite-scroll-component", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:6.1.0"],\
+          ["react-intersection-observer", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:9.8.2"],\
           ["react-query", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:3.39.3"],\
           ["react-router-dom", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:6.22.3"],\
           ["react-scripts", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:5.0.1"],\
@@ -17388,6 +17390,32 @@ const RAW_RUNTIME_STATE =
         ],\
         "packagePeers": [\
           "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["react-intersection-observer", [\
+      ["npm:9.8.2", {\
+        "packageLocation": "../../luke/.yarn/berry/cache/react-intersection-observer-npm-9.8.2-47932f421f-10c0.zip/node_modules/react-intersection-observer/",\
+        "packageDependencies": [\
+          ["react-intersection-observer", "npm:9.8.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:9.8.2", {\
+        "packageLocation": "./.yarn/__virtual__/react-intersection-observer-virtual-69f977ff85/3/luke/.yarn/berry/cache/react-intersection-observer-npm-9.8.2-47932f421f-10c0.zip/node_modules/react-intersection-observer/",\
+        "packageDependencies": [\
+          ["react-intersection-observer", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:9.8.2"],\
+          ["@types/react", "npm:18.2.75"],\
+          ["@types/react-dom", "npm:18.2.24"],\
+          ["react", "npm:18.2.0"],\
+          ["react-dom", "virtual:0f7400a8b1a4bf250d30dda6f1377b1772e630b8f6300a9f2b29ed2d676d3d9669daa4677801c4bbe0d9c9c0118a57a023051898df89917adee3121c7290ca49#npm:18.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react",\
+          "react-dom",\
           "react"\
         ],\
         "linkType": "HARD"\

@@ -2,6 +2,7 @@
 
 - React, Typescript를 이용한 카드신청 프로젝트 입니다.
 - [Pull Request](https://github.com/reserver7/portfolio_mcard/pulls?q=is%3Apr+is%3Aclosed) 탭에서 각 기능별 코드를 확인할 수 있습니다.
+- 사이트 링크: [https://portfolio-mcard.vercel.app/](https://portfolio-mcard.vercel.app/)
 
 ![1](https://github.com/reserver7/portfolio_mcard/assets/78328320/577604ad-034a-4038-a730-4b79200337b2)
 ![2](https://github.com/reserver7/portfolio_mcard/assets/78328320/d8ee4b22-7957-4eb9-abe9-b43490ac477e)

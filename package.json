@@ -14,6 +14,7 @@
     "firebase": "^10.10.0",
     "framer-motion": "^11.0.27",
     "lodash": "^4.17.21",
+    "lodash.flatten": "^4.4.0",
     "qs": "^6.12.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -54,15 +55,18 @@
     "@emotion/babel-plugin": "^11.11.0",
     "@testing-library/jest-dom": "^6.4.2",
     "@types/lodash": "^4.17.0",
+    "@types/lodash.flatten": "^4.4.9",
     "@types/qs": "^6.9.14",
     "@types/testing-library__jest-dom": "^6.0.0",
     "@types/validator": "^13.11.9",
+    "@types/webpack-bundle-analyzer": "^4",
     "craco-alias": "^3.0.1",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.33.2",
-    "prettier": "^3.0.2"
+    "prettier": "^3.0.2",
+    "webpack-bundle-analyzer": "^4.10.2"
   }
 }

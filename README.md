@@ -28,7 +28,7 @@
 
 - React 반응형 웹
 - Typescript
-- Emotion
+- Emotion
 - yarn berry 버전관리
 - eslint, prettier
 - Croco

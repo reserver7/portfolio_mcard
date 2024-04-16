@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+# MCard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React, Typescript를 이용한 카드신청 프로젝트 입니다.
+- [Pull Request](https://github.com/reserver7/portfolio_mcard/pulls?q=is%3Apr+is%3Aclosed) 탭에서 각 기능별 코드를 확인할 수 있습니다.
 
-## Available Scripts
+![1](https://github.com/reserver7/portfolio_mcard/assets/78328320/577604ad-034a-4038-a730-4b79200337b2)
+![2](https://github.com/reserver7/portfolio_mcard/assets/78328320/d8ee4b22-7957-4eb9-abe9-b43490ac477e)
+![3](https://github.com/reserver7/portfolio_mcard/assets/78328320/10de3fed-5695-46f8-b273-10a862c94e77)
+![4](https://github.com/reserver7/portfolio_mcard/assets/78328320/ae8bca20-0f7a-443e-ae3c-1652d463c483)
+![5](https://github.com/reserver7/portfolio_mcard/assets/78328320/e32e3901-cd8f-4cd1-8af2-57a54481bed1)
+![6](https://github.com/reserver7/portfolio_mcard/assets/78328320/3188fefe-965b-4795-8e5b-4bd30fbbeb5b)
 
-In the project directory, you can run:
+<br />
 
-### `yarn start`
+# 프로젝트 설명
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 주요 기능
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Firebase 로그인
+- 카드 목록
+- 이용 약관
+- 신용 정보
+- 카드 설정
+- 프로필 (이미지 업로드)
 
-### `yarn test`
+## 앱 구조
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React 반응형 웹
+- Typescript
+- Emotion
+- yarn berry 버전관리
+- eslint, prettier
+- Croco
 
-### `yarn build`
+## 상태관리
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React Query
+- 데이터 가져오기 (서버 상태 관리)
+- Recoil
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 애니메이션 & 스타일링
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Emotion 이용한 스타일링
 
-### `yarn eject`
+## 배포
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Vercel
+- Github import 자동 배포
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 컴포넌트
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- 레이아웃, 카드신청, 로그인, 프로필, 이용약관, 카드리스트, NavBar, Alert, Button, FixedBottomButton, Flex, FullPageLoader, Input, ProgressBar, Select, Skeleton, Spacing, Text, TextField
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## API
 
-## Learn More
+- React Query를 이용한 데이터 가져오기
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 사용 스택
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React.js
+- Typescript
+- React-query
+- Emotion
+- Firebase
+- Recoil
+
+<br />
+
+# 구현 기능
+
+1. 메인 페이지(카드 정보)
+  - 카드 리스트
+  - 추천 카드 배너
+
+2. 카드 신청
+  - 이용약관
+  - 신용정보
+  - 카드설정
+
+3. 프로필
+  - 로그인
+  - 로그아웃
+  - 내 프로필 / 이미지업로드
